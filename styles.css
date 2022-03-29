@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #151e33;
+    margin-bottom: 80px;
+}
+
+.main {
+    background-color: #1b263e;
+    margin: 80px 25% auto 25%;
+    padding: 12px 90px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 17px 1px black;
+}
+
+a {
+    color: rgb(255, 77, 77);
+    text-decoration: none;
+}
+
+.head {
+    padding-top: 0;
+    text-align: end;
+    color: white;
+}
+
+.body {
+    margin: 30px auto;
+    color: white;
+}
+
+h2 {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.body p {
+    margin: 20px auto;
+    text-align: center;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+label {
+    font-weight: bold;
+    padding-left: 35px;
+}
+
+input {
+    margin: 17px 7px 12px 32px;
+    background-color: #1b263e;
+    border-style: solid;
+    padding: 22px;
+    border-radius: 7px;
+    width: 430px;
+    color: white;
+}
+
+#button {
+    background-color: rgb(255, 77, 77);
+    color: white;
+    border-style: none;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 480px;
+}
+
+input:hover {
+    background-color: #1c2942;
+}
+
+input:focus {
+    color: white;
+    outline: none;
+}
+
+.bottom {
+    position: fixed;
+    background-color: #232e47;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 22px;
+    margin-left: 30px;
+    border-radius: 7px;
+}
